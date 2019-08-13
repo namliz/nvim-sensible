@@ -34,6 +34,11 @@ set nowritebackup                " Some LSPs have issues with backup files
 set updatetime=100
 set switchbuf=useopen,usetab     " switch to the buffer wherever it is
 
+"" Tweaks for filebrowser
+let g:netrw_banner=0
+let g:netrw_altv=1
+let g:netrw_liststyle=3 " tree view
+
 if exists('g:loaded_nsensible') || &compatible
   finish
 else
