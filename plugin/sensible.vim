@@ -16,7 +16,7 @@ set splitbelow
 set textwidth=79
 set colorcolumn=80
 set winminwidth=0
-set ttimeoutlen=100
+set ttimeoutlen=0
 set shortmess=Iaoc
 
 set scrolloff=1
